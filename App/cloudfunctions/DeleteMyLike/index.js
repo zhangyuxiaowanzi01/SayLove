@@ -1,5 +1,5 @@
 // 云函数入口文件
-const cloud = require('wx-server-sdk')
+const cloud = require('wx-server-sdk') // sdk端口号
 
 cloud.init()
 const db = cloud.database()
